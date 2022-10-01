@@ -1,0 +1,406 @@
+00000000000i[     ] Bochs x86 Emulator 2.3.7
+00000000000i[     ]   Build from CVS snapshot, on June 3, 2008
+00000000000i[     ] System configuration
+00000000000i[     ]   processors: 1 (cores=1, HT threads=1)
+00000000000i[     ]   A20 line support: yes
+00000000000i[     ]   APIC support: no
+00000000000i[     ] CPU configuration
+00000000000i[     ]   level: 5
+00000000000i[     ]   SMP support: no
+00000000000i[     ]   FPU support: yes
+00000000000i[     ]   MMX support: yes
+00000000000i[     ]   SSE support: no
+00000000000i[     ]   CLFLUSH support: no
+00000000000i[     ]   VME support: yes
+00000000000i[     ]   3dnow! support: no
+00000000000i[     ]   PAE support: no
+00000000000i[     ]   PGE support: no
+00000000000i[     ]   PSE support: yes
+00000000000i[     ]   x86-64 support: no
+00000000000i[     ]   SEP support: no
+00000000000i[     ]   MWAIT support: no
+00000000000i[     ]   XSAVE support: no
+00000000000i[     ]   AES support: no
+00000000000i[     ] Optimization configuration
+00000000000i[     ]   Guest2HostTLB support: no
+00000000000i[     ]   RepeatSpeedups support: no
+00000000000i[     ]   Icache support: no
+00000000000i[     ]   Trace cache support: no
+00000000000i[     ]   Fast function calls: no
+00000000000i[     ] Devices configuration
+00000000000i[     ]   ACPI support: no
+00000000000i[     ]   NE2000 support: no
+00000000000i[     ]   PCI support: no
+00000000000i[     ]   SB16 support: no
+00000000000i[     ]   USB support: no
+00000000000i[     ]   VGA extension support: vbe 
+00000000000i[MEM0 ] allocated memory at 0xf641d010. after alignment, vector=0xf641e000
+00000000000i[MEM0 ] 16.00MB
+00000000000i[MEM0 ] rom at 0xfffe0000/131072 ('./bochs/BIOS-bochs-latest')
+00000000000i[MEM0 ] rom at 0xc0000/39424 ('./bochs/vgabios.bin')
+00000000000i[CMOS ] Using local time for initial clock
+00000000000i[CMOS ] Setting initial clock to: Fri Sep 16 23:34:54 2022 (time0=1663396494)
+00000000000i[DMA  ] channel 4 used by cascade
+00000000000i[DMA  ] channel 2 used by Floppy Drive
+00000000000i[FDD  ] fd0: './linux-0.11/Image' ro=0, h=2,t=80,spt=18
+00000000000i[MEM0 ] Register memory access handlers: 0x000a0000 - 0x000bffff
+00000000000i[XGUI ] test_alloc_colors: 16 colors available out of 16 colors tried
+00000000000i[XGUI ] font 8 wide x 16 high, display depth = 24
+00000000000i[VGA  ] interval=300000
+00000000000i[MEM0 ] Register memory access handlers: 0xe0000000 - 0xe07fffff
+00000000000i[VGA  ] VBE Bochs Display Extension Enabled
+00000000000i[     ] init_mem of 'harddrv' plugin device by virtual method
+00000000000i[     ] init_mem of 'keyboard' plugin device by virtual method
+00000000000i[     ] init_mem of 'serial' plugin device by virtual method
+00000000000i[     ] init_mem of 'parallel' plugin device by virtual method
+00000000000i[     ] init_mem of 'extfpuirq' plugin device by virtual method
+00000000000i[     ] init_mem of 'speaker' plugin device by virtual method
+00000000000i[     ] init_dev of 'harddrv' plugin device by virtual method
+00000000000i[HD   ] HD on ata0-0: './hdc-0.11.img' 'flat' mode 
+00000000000i[HD   ] translation on ata0-0 set to 'none'
+00000000000i[HD   ] Using boot sequence floppy, none, none
+00000000000i[HD   ] Floppy boot signature check is enabled
+00000000000i[     ] init_dev of 'keyboard' plugin device by virtual method
+00000000000i[KBD  ] will paste characters every 1000 keyboard ticks
+00000000000i[     ] init_dev of 'serial' plugin device by virtual method
+00000000000i[SER  ] com1 at 0x03f8 irq 4
+00000000000i[     ] init_dev of 'parallel' plugin device by virtual method
+00000000000i[PAR  ] parallel port 1 at 0x0378 irq 7
+00000000000i[     ] init_dev of 'extfpuirq' plugin device by virtual method
+00000000000i[     ] init_dev of 'speaker' plugin device by virtual method
+00000000000i[SPEAK] Failed to open /dev/console: 资源暂时不可用
+00000000000i[SPEAK] Deactivating beep on console
+00000000000i[     ] register state of 'harddrv' plugin device by virtual method
+00000000000i[     ] register state of 'keyboard' plugin device by virtual method
+00000000000i[     ] register state of 'serial' plugin device by virtual method
+00000000000i[     ] register state of 'parallel' plugin device by virtual method
+00000000000i[     ] register state of 'extfpuirq' plugin device by virtual method
+00000000000i[     ] register state of 'speaker' plugin device by virtual method
+00000000000i[SYS  ] bx_pc_system_c::Reset(HARDWARE) called
+00000000000i[CPU  ] cpu hardware reset
+00000000000i[     ] reset of 'harddrv' plugin device by virtual method
+00000000000i[     ] reset of 'keyboard' plugin device by virtual method
+00000000000i[     ] reset of 'serial' plugin device by virtual method
+00000000000i[     ] reset of 'parallel' plugin device by virtual method
+00000000000i[     ] reset of 'extfpuirq' plugin device by virtual method
+00000000000i[     ] reset of 'speaker' plugin device by virtual method
+00000000000i[XGUI ] [x] Mouse off
+00000003445i[BIOS ] $Revision: 1.194 $ $Date: 2007/12/23 19:46:27 $
+00000436851i[KBD  ] reset-disable command received
+00000455595i[BIOS ] Starting rombios32
+00000456291i[BIOS ] ram_size=0x00f00000
+00000456805i[BIOS ] Found 1 cpu(s)
+00000681303i[VBIOS] VGABios $Id: vgabios.c,v 1.66 2006/07/10 07:47:51 vruppert Exp $
+00000681374i[VGA  ] VBE known Display Interface b0c0
+00000681406i[VGA  ] VBE known Display Interface b0c4
+00000684331i[VBIOS] VBE Bios $Id: vbe.c,v 1.58 2006/08/19 09:39:43 vruppert Exp $
+00001007772i[BIOS ] ata0-0: PCHS=204/16/38 translation=none LCHS=204/16/38
+00001200000i[XGUI ] charmap update. Font Height is 16
+00004887980i[BIOS ] IDE time out
+00005086821i[BIOS ] Booting from 0000:7c00
+00015957703i[FDD  ] partial read() on floppy image returns 193/512
+00016002658i[FDD  ] read() on floppy image returns 0
+00016047613i[FDD  ] read() on floppy image returns 0
+00016092568i[FDD  ] read() on floppy image returns 0
+00016137523i[FDD  ] read() on floppy image returns 0
+00016182478i[FDD  ] read() on floppy image returns 0
+00016227433i[FDD  ] read() on floppy image returns 0
+00016272388i[FDD  ] read() on floppy image returns 0
+00016317343i[FDD  ] read() on floppy image returns 0
+00016362298i[FDD  ] read() on floppy image returns 0
+00016408498i[FDD  ] read() on floppy image returns 0
+00016453453i[FDD  ] read() on floppy image returns 0
+00016498408i[FDD  ] read() on floppy image returns 0
+00016543363i[FDD  ] read() on floppy image returns 0
+00016588318i[FDD  ] read() on floppy image returns 0
+00016633273i[FDD  ] read() on floppy image returns 0
+00016678228i[FDD  ] read() on floppy image returns 0
+00016723183i[FDD  ] read() on floppy image returns 0
+00016768138i[FDD  ] read() on floppy image returns 0
+00016814326i[FDD  ] read() on floppy image returns 0
+00016859281i[FDD  ] read() on floppy image returns 0
+00016904236i[FDD  ] read() on floppy image returns 0
+00016949191i[FDD  ] read() on floppy image returns 0
+00016994146i[FDD  ] read() on floppy image returns 0
+00017039101i[FDD  ] read() on floppy image returns 0
+00017084056i[FDD  ] read() on floppy image returns 0
+00017129011i[FDD  ] read() on floppy image returns 0
+00017173966i[FDD  ] read() on floppy image returns 0
+00017220154i[FDD  ] read() on floppy image returns 0
+00017265109i[FDD  ] read() on floppy image returns 0
+00017310064i[FDD  ] read() on floppy image returns 0
+00017355019i[FDD  ] read() on floppy image returns 0
+00017399974i[FDD  ] read() on floppy image returns 0
+00017444929i[FDD  ] read() on floppy image returns 0
+00017489884i[FDD  ] read() on floppy image returns 0
+00017534839i[FDD  ] read() on floppy image returns 0
+00017579794i[FDD  ] read() on floppy image returns 0
+00017624749i[FDD  ] read() on floppy image returns 0
+00017669704i[FDD  ] read() on floppy image returns 0
+00017714659i[FDD  ] read() on floppy image returns 0
+00017759614i[FDD  ] read() on floppy image returns 0
+00017804569i[FDD  ] read() on floppy image returns 0
+00017849524i[FDD  ] read() on floppy image returns 0
+00017894479i[FDD  ] read() on floppy image returns 0
+00017939434i[FDD  ] read() on floppy image returns 0
+00017984389i[FDD  ] read() on floppy image returns 0
+00018030585i[FDD  ] read() on floppy image returns 0
+00018075540i[FDD  ] read() on floppy image returns 0
+00018120495i[FDD  ] read() on floppy image returns 0
+00018165450i[FDD  ] read() on floppy image returns 0
+00018210405i[FDD  ] read() on floppy image returns 0
+00018255360i[FDD  ] read() on floppy image returns 0
+00018300315i[FDD  ] read() on floppy image returns 0
+00018345270i[FDD  ] read() on floppy image returns 0
+00018390225i[FDD  ] read() on floppy image returns 0
+00018435180i[FDD  ] read() on floppy image returns 0
+00018480135i[FDD  ] read() on floppy image returns 0
+00018525090i[FDD  ] read() on floppy image returns 0
+00018570045i[FDD  ] read() on floppy image returns 0
+00018615000i[FDD  ] read() on floppy image returns 0
+00018659955i[FDD  ] read() on floppy image returns 0
+00018704910i[FDD  ] read() on floppy image returns 0
+00018749865i[FDD  ] read() on floppy image returns 0
+00018794820i[FDD  ] read() on floppy image returns 0
+00018841034i[FDD  ] read() on floppy image returns 0
+00018885989i[FDD  ] read() on floppy image returns 0
+00018930944i[FDD  ] read() on floppy image returns 0
+00018975899i[FDD  ] read() on floppy image returns 0
+00019020854i[FDD  ] read() on floppy image returns 0
+00019065809i[FDD  ] read() on floppy image returns 0
+00019110764i[FDD  ] read() on floppy image returns 0
+00019155719i[FDD  ] read() on floppy image returns 0
+00019200674i[FDD  ] read() on floppy image returns 0
+00019245629i[FDD  ] read() on floppy image returns 0
+00019290584i[FDD  ] read() on floppy image returns 0
+00019335539i[FDD  ] read() on floppy image returns 0
+00019380494i[FDD  ] read() on floppy image returns 0
+00019425449i[FDD  ] read() on floppy image returns 0
+00019470404i[FDD  ] read() on floppy image returns 0
+00019515359i[FDD  ] read() on floppy image returns 0
+00019560314i[FDD  ] read() on floppy image returns 0
+00019605269i[FDD  ] read() on floppy image returns 0
+00019651465i[FDD  ] read() on floppy image returns 0
+00019696420i[FDD  ] read() on floppy image returns 0
+00019741375i[FDD  ] read() on floppy image returns 0
+00019786330i[FDD  ] read() on floppy image returns 0
+00019831285i[FDD  ] read() on floppy image returns 0
+00019876240i[FDD  ] read() on floppy image returns 0
+00019921195i[FDD  ] read() on floppy image returns 0
+00019966150i[FDD  ] read() on floppy image returns 0
+00020011105i[FDD  ] read() on floppy image returns 0
+00020056060i[FDD  ] read() on floppy image returns 0
+00020101015i[FDD  ] read() on floppy image returns 0
+00020145970i[FDD  ] read() on floppy image returns 0
+00020190925i[FDD  ] read() on floppy image returns 0
+00020235880i[FDD  ] read() on floppy image returns 0
+00020280835i[FDD  ] read() on floppy image returns 0
+00020325790i[FDD  ] read() on floppy image returns 0
+00020370745i[FDD  ] read() on floppy image returns 0
+00020415700i[FDD  ] read() on floppy image returns 0
+00020461895i[FDD  ] read() on floppy image returns 0
+00020506850i[FDD  ] read() on floppy image returns 0
+00020551805i[FDD  ] read() on floppy image returns 0
+00020596760i[FDD  ] read() on floppy image returns 0
+00020641715i[FDD  ] read() on floppy image returns 0
+00020686670i[FDD  ] read() on floppy image returns 0
+00020731625i[FDD  ] read() on floppy image returns 0
+00020776580i[FDD  ] read() on floppy image returns 0
+00020821535i[FDD  ] read() on floppy image returns 0
+00020866490i[FDD  ] read() on floppy image returns 0
+00020911445i[FDD  ] read() on floppy image returns 0
+00020956400i[FDD  ] read() on floppy image returns 0
+00021001355i[FDD  ] read() on floppy image returns 0
+00021046310i[FDD  ] read() on floppy image returns 0
+00021091265i[FDD  ] read() on floppy image returns 0
+00021136220i[FDD  ] read() on floppy image returns 0
+00021181175i[FDD  ] read() on floppy image returns 0
+00021226130i[FDD  ] read() on floppy image returns 0
+00021272345i[FDD  ] read() on floppy image returns 0
+00021317300i[FDD  ] read() on floppy image returns 0
+00021362255i[FDD  ] read() on floppy image returns 0
+00021407210i[FDD  ] read() on floppy image returns 0
+00021452165i[FDD  ] read() on floppy image returns 0
+00021497120i[FDD  ] read() on floppy image returns 0
+00021542075i[FDD  ] read() on floppy image returns 0
+00021587030i[FDD  ] read() on floppy image returns 0
+00021631985i[FDD  ] read() on floppy image returns 0
+00021676940i[FDD  ] read() on floppy image returns 0
+00021721895i[FDD  ] read() on floppy image returns 0
+00021766850i[FDD  ] read() on floppy image returns 0
+00021811805i[FDD  ] read() on floppy image returns 0
+00021856760i[FDD  ] read() on floppy image returns 0
+00021901715i[FDD  ] read() on floppy image returns 0
+00021946670i[FDD  ] read() on floppy image returns 0
+00021991625i[FDD  ] read() on floppy image returns 0
+00022036580i[FDD  ] read() on floppy image returns 0
+00022082779i[FDD  ] read() on floppy image returns 0
+00022127734i[FDD  ] read() on floppy image returns 0
+00022172689i[FDD  ] read() on floppy image returns 0
+00022217644i[FDD  ] read() on floppy image returns 0
+00022262599i[FDD  ] read() on floppy image returns 0
+00022307554i[FDD  ] read() on floppy image returns 0
+00022352509i[FDD  ] read() on floppy image returns 0
+00022397464i[FDD  ] read() on floppy image returns 0
+00022442419i[FDD  ] read() on floppy image returns 0
+00022487374i[FDD  ] read() on floppy image returns 0
+00022532329i[FDD  ] read() on floppy image returns 0
+00022582773i[BIOS ] int13_harddisk: function 15, unmapped device for ELDL=81
+00263699556i[XGUI ] X11 Beep ON (frequency=inf)
+00264143305i[XGUI ] X11 Beep OFF
+00264143305i[PIT81] Changing GATE 2 to: 0
+00264531312i[XGUI ] X11 Beep ON (frequency=749.96)
+00264531312i[PIT81] Changing GATE 2 to: 1
+00264983321i[XGUI ] X11 Beep OFF
+00264983321i[PIT81] Changing GATE 2 to: 0
+00265307924i[XGUI ] X11 Beep ON (frequency=749.96)
+00265307924i[PIT81] Changing GATE 2 to: 1
+00265783333i[XGUI ] X11 Beep OFF
+00265783333i[PIT81] Changing GATE 2 to: 0
+00266327849i[XGUI ] X11 Beep ON (frequency=749.96)
+00266327849i[PIT81] Changing GATE 2 to: 1
+00266783350i[XGUI ] X11 Beep OFF
+00266783350i[PIT81] Changing GATE 2 to: 0
+00267095923i[XGUI ] X11 Beep ON (frequency=749.96)
+00267095923i[PIT81] Changing GATE 2 to: 1
+00267543360i[XGUI ] X11 Beep OFF
+00267543360i[PIT81] Changing GATE 2 to: 0
+00267883816i[XGUI ] X11 Beep ON (frequency=749.96)
+00267883816i[PIT81] Changing GATE 2 to: 1
+00268343373i[XGUI ] X11 Beep OFF
+00268343373i[PIT81] Changing GATE 2 to: 0
+00268915823i[XGUI ] X11 Beep ON (frequency=749.96)
+00268915823i[PIT81] Changing GATE 2 to: 1
+00269383388i[XGUI ] X11 Beep OFF
+00269383388i[PIT81] Changing GATE 2 to: 0
+00269903965i[XGUI ] X11 Beep ON (frequency=749.96)
+00269903965i[PIT81] Changing GATE 2 to: 1
+00270383406i[XGUI ] X11 Beep OFF
+00270383406i[PIT81] Changing GATE 2 to: 0
+00270779547i[XGUI ] X11 Beep ON (frequency=749.96)
+00270779547i[PIT81] Changing GATE 2 to: 1
+00271223420i[XGUI ] X11 Beep OFF
+00271223420i[PIT81] Changing GATE 2 to: 0
+00271683486i[XGUI ] X11 Beep ON (frequency=749.96)
+00271683486i[PIT81] Changing GATE 2 to: 1
+00272143431i[XGUI ] X11 Beep OFF
+00272143431i[PIT81] Changing GATE 2 to: 0
+00272611469i[XGUI ] X11 Beep ON (frequency=749.96)
+00272611469i[PIT81] Changing GATE 2 to: 1
+00273063450i[XGUI ] X11 Beep OFF
+00273063450i[PIT81] Changing GATE 2 to: 0
+00273519647i[XGUI ] X11 Beep ON (frequency=749.96)
+00273519647i[PIT81] Changing GATE 2 to: 1
+00273983464i[XGUI ] X11 Beep OFF
+00273983464i[PIT81] Changing GATE 2 to: 0
+00274367664i[XGUI ] X11 Beep ON (frequency=749.96)
+00274367664i[PIT81] Changing GATE 2 to: 1
+00274823477i[XGUI ] X11 Beep OFF
+00274823477i[PIT81] Changing GATE 2 to: 0
+00275219920i[XGUI ] X11 Beep ON (frequency=749.96)
+00275219920i[PIT81] Changing GATE 2 to: 1
+00275663489i[XGUI ] X11 Beep OFF
+00275663489i[PIT81] Changing GATE 2 to: 0
+00276139425i[XGUI ] X11 Beep ON (frequency=749.96)
+00276139425i[PIT81] Changing GATE 2 to: 1
+00276583506i[XGUI ] X11 Beep OFF
+00276583506i[PIT81] Changing GATE 2 to: 0
+00277167888i[XGUI ] X11 Beep ON (frequency=749.96)
+00277167888i[PIT81] Changing GATE 2 to: 1
+00277623521i[XGUI ] X11 Beep OFF
+00277623521i[PIT81] Changing GATE 2 to: 0
+00278119234i[XGUI ] X11 Beep ON (frequency=749.96)
+00278119234i[PIT81] Changing GATE 2 to: 1
+00278583535i[XGUI ] X11 Beep OFF
+00278583535i[PIT81] Changing GATE 2 to: 0
+00278951708i[XGUI ] X11 Beep ON (frequency=749.96)
+00278951708i[PIT81] Changing GATE 2 to: 1
+00279423549i[XGUI ] X11 Beep OFF
+00279423549i[PIT81] Changing GATE 2 to: 0
+00279771405i[XGUI ] X11 Beep ON (frequency=749.96)
+00279771405i[PIT81] Changing GATE 2 to: 1
+00279780821i[XGUI ] X11 Beep ON (frequency=749.96)
+00279780825i[XGUI ] X11 Beep ON (frequency=749.96)
+00279782424i[XGUI ] X11 Beep ON (frequency=749.96)
+00279782428i[XGUI ] X11 Beep ON (frequency=749.96)
+00280223559i[XGUI ] X11 Beep OFF
+00280223559i[PIT81] Changing GATE 2 to: 0
+03936111323i[XGUI ] X11 Beep ON (frequency=749.96)
+03936111323i[PIT81] Changing GATE 2 to: 1
+03936561784i[XGUI ] X11 Beep OFF
+03936561784i[PIT81] Changing GATE 2 to: 0
+03947986745i[XGUI ] X11 Beep ON (frequency=749.96)
+03947986745i[PIT81] Changing GATE 2 to: 1
+03948441974i[XGUI ] X11 Beep OFF
+03948441974i[PIT81] Changing GATE 2 to: 0
+03955758995i[XGUI ] X11 Beep ON (frequency=749.96)
+03955758995i[PIT81] Changing GATE 2 to: 1
+03956202096i[XGUI ] X11 Beep OFF
+03956202096i[PIT81] Changing GATE 2 to: 0
+03964526848i[XGUI ] X11 Beep ON (frequency=749.96)
+03964526848i[PIT81] Changing GATE 2 to: 1
+03965002237i[XGUI ] X11 Beep OFF
+03965002237i[PIT81] Changing GATE 2 to: 0
+03970291026i[XGUI ] X11 Beep ON (frequency=749.96)
+03970291026i[PIT81] Changing GATE 2 to: 1
+03970762327i[XGUI ] X11 Beep OFF
+03970762327i[PIT81] Changing GATE 2 to: 0
+03976278783i[XGUI ] X11 Beep ON (frequency=749.96)
+03976278783i[PIT81] Changing GATE 2 to: 1
+03976722424i[XGUI ] X11 Beep OFF
+03976722424i[PIT81] Changing GATE 2 to: 0
+03981399088i[XGUI ] X11 Beep ON (frequency=749.96)
+03981399088i[PIT81] Changing GATE 2 to: 1
+03981842505i[XGUI ] X11 Beep OFF
+03981842505i[PIT81] Changing GATE 2 to: 0
+03986767109i[XGUI ] X11 Beep ON (frequency=749.96)
+03986767109i[PIT81] Changing GATE 2 to: 1
+03987242594i[XGUI ] X11 Beep OFF
+03987242594i[PIT81] Changing GATE 2 to: 0
+04024729788i[XGUI ] X11 Beep ON (frequency=749.96)
+04024729788i[PIT81] Changing GATE 2 to: 1
+04025203197i[XGUI ] X11 Beep OFF
+04025203197i[PIT81] Changing GATE 2 to: 0
+04029897767i[XGUI ] X11 Beep ON (frequency=749.96)
+04029897767i[PIT81] Changing GATE 2 to: 1
+04030363276i[XGUI ] X11 Beep OFF
+04030363276i[PIT81] Changing GATE 2 to: 0
+04035597827i[XGUI ] X11 Beep ON (frequency=749.96)
+04035597827i[PIT81] Changing GATE 2 to: 1
+04036043368i[XGUI ] X11 Beep OFF
+04036043368i[PIT81] Changing GATE 2 to: 0
+04767203402i[XGUI ] X11 Beep ON (frequency=749.96)
+04767203402i[PIT81] Changing GATE 2 to: 1
+04767655015i[XGUI ] X11 Beep OFF
+04767655015i[PIT81] Changing GATE 2 to: 0
+06205107075i[XGUI ] X11 Beep ON (frequency=749.96)
+06205107075i[PIT81] Changing GATE 2 to: 1
+06205557912i[XGUI ] X11 Beep OFF
+06205557912i[PIT81] Changing GATE 2 to: 0
+08528717958i[XGUI ] X11 Beep ON (frequency=749.96)
+08528717958i[PIT81] Changing GATE 2 to: 1
+08529194915i[XGUI ] X11 Beep OFF
+08529194915i[PIT81] Changing GATE 2 to: 0
+08840228000i[     ] cpu loop quit, shutting down simulator
+08840228000i[CPU  ] CPU is in protected mode (active)
+08840228000i[CPU  ] CS.d_b = 32 bit
+08840228000i[CPU  ] SS.d_b = 32 bit
+08840228000i[CPU  ] | EAX=0001a160  EBX=00000009  ECX=0001b1ac  EDX=00000017
+08840228000i[CPU  ] | ESP=0001b11c  EBP=00020eac  ESI=00000002  EDI=00000002
+08840228000i[CPU  ] | IOPL=0 id vip vif ac vm rf nt of df IF tf sf zf af pf cf
+08840228000i[CPU  ] | SEG selector     base    limit G D
+08840228000i[CPU  ] | SEG sltr(index|ti|rpl)     base    limit G D
+08840228000i[CPU  ] |  CS:0008( 0001| 0|  0) 00000000 00000fff 1 1
+08840228000i[CPU  ] |  DS:0010( 0002| 0|  0) 00000000 00000fff 1 1
+08840228000i[CPU  ] |  SS:0010( 0002| 0|  0) 00000000 00000fff 1 1
+08840228000i[CPU  ] |  ES:0010( 0002| 0|  0) 00000000 00000fff 1 1
+08840228000i[CPU  ] |  FS:0017( 0002| 1|  3) 00000000 0000009f 1 1
+08840228000i[CPU  ] |  GS:0017( 0002| 1|  3) 00000000 0000009f 1 1
+08840228000i[CPU  ] | EIP=00006bd5 (00006bd5)
+08840228000i[CPU  ] | CR0=0x8000001b CR1=0 CR2=0x08056dc0
+08840228000i[CPU  ] | CR3=0x00000000 CR4=0x00000000
+08840228000i[CPU  ] >> jnbe .+0xffffffa6 (0x00006b7d) : 77A6
+08840228000i[CMOS ] Last time is 1663398704 (Sat Sep 17 00:11:44 2022)
+08840228000i[XGUI ] Exit
+08840228000i[     ] restoring default signal behavior
+08840228000i[CTRL ] quit_sim called with exit code 1
